@@ -1,0 +1,18 @@
+body{
+    margin-top: 150px;
+}
+
+p{
+    font-size: 24px;
+}
+.box{
+    background: #808080;
+    height: 300px;
+    width: 550px;
+    box-shadow: #d3b593 -30px -22px 29px 10px;
+}
+
+.box1{
+    border-left: 5px solid #e70908;
+    padding-left: 30px;
+}
