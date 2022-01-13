@@ -1,0 +1,53 @@
+body{
+    margin: 30px 0 30px 30px;
+}
+
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
+}
+
+.target1{
+}
+
+.blocks1{
+    color: white;
+    background: #882726;
+    padding-left: 1600px;
+}
+
+.blocks2{
+    box-sizing: border-box;
+    height: 110px;
+    background: #bfbfbf;
+    padding-top: 30px;
+    padding-left: 30px;
+    margin-bottom: 0;
+}
+
+.blocks3{
+    background: #6394eb;
+    height: 180px;
+    box-sizing: border-box;
+    padding-top: 70px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blocks4{
+    background: #6bba67;
+    height: 300px;
+    width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.blocks5{
+    background: #8785aa;
+    height: 300px;
+    width: 300px;
+    margin-top: 0;
+    border-radius: 30px;
+}
