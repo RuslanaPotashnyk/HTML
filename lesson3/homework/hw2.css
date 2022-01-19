@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header, .post, #footer, .menu{
+    border: 1px solid #252525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+#menu{
+    display: flex;
+    width: 260px;
+}
+
+#header{
+    height: 40px;
+    width: 200px;
+    background: #e5f6af;
+}
+
+.menu{
+    width: 20%;
+    height: 208px;
+    background: #ffb7ff;
+}
+
+#footer{
+    height: 40px;
+    width: 200px;
+    background: #ffffca;
+}
+
+#container2{
+    width: 80%;
+}
+
+.post{
+    background: #9fe2ff;
+    height: 100px;
+    width: 70%;
+    display: flex;
+    margin-right: 0;
+}
