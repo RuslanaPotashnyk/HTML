@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-A, .block-B, .block-C, .block-D, .block-E{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.block-A, .block-B, .block-E{
+    height: 50px;
+    width: 100%;
+}
+
+.block-A{
+    background: #0c65a7;
+}
+
+.block-B{
+    background: #124b76;
+}
+
+.block-C{
+    height: 200px;
+    width: 300px;
+    background: #16a2c5;
+}
+
+.block-D{
+    height: 200px;
+    width: 100px;
+    background: #5275ad;
+}
+
+#container2{
+    display: flex;
+}
+
+.block-E{
+    background: #7dcce3;
+}
