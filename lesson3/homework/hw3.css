@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-A, .block-B, .block-C, .block-D, .block-E{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.block-A{
+    width: 100%;
+    height: 180px;
+    background: #2269bb;
+    font-size: 200%;
+    font-weight: 100;
+}
+
+.block-B, .block-C, .block-D{
+    height: 180px;
+    width: 130px;
+    background: #16457a;
+}
+
+#container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.block-D{
+    margin-right: 0;
+}
+
+.block-E{
+    width: 100%;
+    height: 400px;
+    background: #2269bb;
+    font-size: 200%;
+    font-weight: 100;
+}
