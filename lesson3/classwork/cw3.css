@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blocks-A-B, .block-C, .blocks-D-E-F{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.blocks-A-B, .block-C{
+    background: #2269bb;
+}
+
+.blocks-D-E-F{
+    background: #16457a;
+    height: 150px;
+    width: 140px;
+}
+
+.blocks-A-B{
+    height: 350px;
+    width: 215px;
+}
+
+#container-1, #container-2{
+    display: flex;
+}
+
+.block-C{
+    width: 440px;
+    height: 150px;
+}
