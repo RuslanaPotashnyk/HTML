@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-father{
+    width: 1200px;
+}
+
+.wrap-1{
+    width: 1200px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: #3ac5ed;
+    column-gap: 15px;
+}
+
+.block-1, .block-3{
+    height: 6px;
+    border-radius: 3px;
+    background: #005173;
+}
+
+.block-1{
+    width: 50px;
+}
+
+.block-3{
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.a{
+    margin-right: 150px;
+}
+
+.wrap-2{
+    height: 100px;
+    background: #cfd7e1;
+    box-sizing: border-box;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+.block-2{
+    width: 200px;
+    height: 50px;
+    background: #122a40;
+    border-radius: 10px;
+    margin-left: 150px;
+
+}
+
+.wrap-2-1, .wrap-2{
+    display: flex;
+}
+
+.wrap-2-1{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.wrap-3{
+    height: 400px;
+    background: #3ac6ea;
+}
+
+.wrap-3-1{
+    box-sizing: border-box;
+    padding-top: 100px;
+    display: flex;
+    column-gap: 15px;
+    justify-content: center;
+}
+
+.block-4{
+    width: 165px;
+    height: 15px;
+    background: #003b52;
+    border-radius: 8px;
+}
+
+.wrap-3-2, .wrap-4-2{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+
+.b{
+    margin-top: 50px;
+}
+
+.button{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background: #0e2a3c;
+    margin-left: 500px;
+    margin-top: 25px;
+}
+
+.wrap-4{
+    height: 400px;
+    background: #ced8e1;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.wrap-4-1{
+    width: 1100px;
+    height: 360px;
+    background: #ced8e1;
+    border: 5px solid #8db5bf;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+.wrap-4-2{
+    margin-top: 35px;
+}
+
+.c{
+    background: #0e1f2b;
+}
+
+.block-5{
+    height: 150px;
+    width: 150px;
+    background: #102b3e;
+    border-radius: 10px;
+}
+
+.d{
+    column-gap: 55px;
+}
+
+.wrap-5{
+    height: 400px;
+    background: #102b3e;
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle{
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    margin-top: 70px;
+    background: #ced8e1;
+    display: flex;
+    justify-content: center;
+}
+
+.e{
+    margin-top: 20px;
+    margin-bottom: 0;
+    background: #ced8e1;
+}
+
+.wrap-4-4{
+    column-gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap-5-1{
+    width: 175px;
+}
+
+
