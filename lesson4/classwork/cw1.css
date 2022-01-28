@@ -1,0 +1,78 @@
+body, #container-1-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container-1-1{
+    column-gap: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#container-father{
+    height: 680px;
+    width: 1200px;
+    background: #ced8e1;
+}
+
+#container-1{
+    height: 270px;
+    width: 1000px;
+    background: #ced8e1;
+    border: 5px solid #8db5bf;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+
+.block-1, .block-2, .block-4, .block-5{
+    height: 8px;
+    border-radius: 5px;
+    background: #102b3e;
+}
+
+.block-2, .block-5{
+    width: 30px;
+}
+
+.block-1, .block-4{
+    width: 60px;
+}
+
+.block-3{
+    height: 150px;
+    width: 150px;
+    background: #102b3e;
+    border-radius: 10px;
+}
+
+#container-1-2-2, #container-1-2-6, #container-1-2-7, #container-1-2-8, #container-2-2, #container-2-3, #container-2-7,
+#container-2-6, #container-2-8, #container-2-9{
+    display: flex;
+    column-gap: 7px;
+    margin-top: 15px;
+    justify-content: center;
+}
+
+#container-1-2, #container-2-1, #container-2-4, #container-2-5, #container-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#container-2{
+    margin-top: 40px;
+    height: 310px;
+    background: #102b3e;
+}
+
+.circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.block-4, .block-5, .circle{
+    background: #ced8e1;
+}
