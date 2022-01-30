@@ -240,7 +240,7 @@ h2{
     margin-bottom: 13px;
 }
 
-.solutions h2{
+.solutions h2, .integrations h2{
     width: 593px;
     height: 144px;
     font-size: 42px;
@@ -338,4 +338,208 @@ h2{
     width: 136px;
     background: #fe9f28;
     color: #0B2330;
+}
+
+.features{
+    height: 1144px;
+}
+
+.wrap_features p{
+    text-transform: uppercase;
+    color: #375361;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding-top: 96px;
+    margin-left: 122px;
+    margin-bottom: 10px;
+}
+
+.wrap_features{
+    background: #f2ede7;
+    height: 960px;
+}
+
+.wrap_features h3{
+    width: 1064px;
+    height: 128px;
+    color: #0b2330;
+    font-size: 60px;
+    line-height: 64px;
+    font-weight: normal;
+    margin-left: 122px;
+    margin-bottom: 120px;
+}
+
+.wrap_target, .profile, .wrap_example, .wrap_other_target, .wrap_integrations{
+    display: flex;
+}
+
+.wrap_target img{
+    margin-left: 122px;
+    margin-right: 140px;
+}
+
+hr{
+    height: 2px;
+    width: 588px;
+    background: #c9316f;
+    margin-bottom: 25px;
+}
+
+.wrap_title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrap_title img{
+    margin: 0;
+    width: 24px;
+    height: 24px;
+}
+
+.wrap_title h4{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0B2330;
+    width: 245px;
+    height: 32px;
+    margin-bottom: 24px;
+}
+
+.wrap_text_target h5{
+    color: #375361;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 28px;
+    padding: 0;
+    width: 563px;
+    margin-bottom: 40px;
+}
+
+.wrap_other_target img{
+    margin-left: 8px;
+    width: 28px;
+    height: 12px;
+    margin-top: 9px;
+}
+
+.wrap_other_target h5{
+    width: 86px;
+    margin-bottom: 25px;
+}
+
+.hr_style_one{
+    background: #C3CACD;
+}
+
+.wrap_integrations_text{
+    margin-left: 148px;
+}
+
+.wrap_integrations_text button{
+    margin-left: 0;
+    width: 208px;
+}
+
+.integrations{
+    height: 1264px;
+}
+
+.integrations h4{
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #375361;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.integrations h2{
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.wrap_integrations_text h2{
+    width: 669px;
+    margin-top: 15px;
+    margin-bottom: 37px;
+}
+
+.integrations p{
+    font-size: 17px;
+    line-height: 28px;
+    color: #375361;
+}
+
+.wrap_integrations_text p{
+    width: 667px;
+    margin-bottom: 36px;
+}
+
+.wrap_integrations img{
+    margin-left: 183px;
+}
+
+.wrap_example{
+    width: 1376px;
+    padding-top: 240px;
+    display: flex;
+    margin-left: 32px;
+}
+
+.case_study{
+    width: 582px;
+    height: 584px;
+    background: #f2ede7;
+    border-radius: 10px 0 0 10px;
+}
+
+.case_study_text{
+    margin-left: 116px;
+    margin-top: 80px;
+}
+
+.case_study_text h3{
+    width: 314px;
+    height: 64px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 17px;
+    margin-bottom: 27px;
+}
+
+.case_study_text button{
+    margin-top: 36px;
+    background: #f2ede7;
+    width: 140px;
+}
+
+.quote{
+    background: #f9c600;
+    border-radius: 0 10px 10px 0;
+    width: 794px;
+}
+
+.quote_text{
+    margin-top: 79px;
+    margin-left: 116px;
+}
+
+.profile{
+    margin-top: 177px;
+}
+
+.wrap_text_profile{
+    margin-left: 24px;
+    margin-top: 15px;
+}
+
+.position_img{
+    position: absolute;
+    margin-top: -480px;
+    margin-left: -116px;
 }
